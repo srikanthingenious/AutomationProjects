@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 22 13:46:01 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>74 seconds (74264 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases.CreateNewPostscriptExecution()'><b>CreateNewPostscriptExecution</b><br>Test class: com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases<br/>
+<a href="#Output-2017085051" onClick='toggleBox("Output-2017085051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2017085051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2017085051">
+Clicked on Post<br/>
+Enter post title<br/>
+Post Description given<br/>
+ Image Added to post<br/>
+Settings Menu Dropdown clicked<br/>
+Click on Publish<br/>
+Click on Publish Now<br/>
+Click on Content Tab<br/>
+Verify post<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases@3ffc5af1</td></tr>
+<tr>
+<td title='com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases.DeletePostscriptExecution()'><b>DeletePostscriptExecution</b><br>Test class: com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases<br/>
+<a href="#Output-1965445467" onClick='toggleBox("Output-1965445467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1965445467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1965445467">
+Clicked on ContentTab<br/>
+Clicked on Content Tabel<br/>
+Edit post<br/>
+Click on Settings Menu Dropdown<br/>
+Click on DeletePost in Settings Menu Dropdown<br/>
+Click on Delete in DeletePostPopup<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases@26653222</td></tr>
+<tr>
+<td title='com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases.EditPostscriptExecution()'><b>EditPostscriptExecution</b><br>Test class: com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases<br/>
+<a href="#Output-1262854901" onClick='toggleBox("Output-1262854901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1262854901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262854901">
+Clicked on Content Tab<br/>
+Click on Edit Post<br/>
+Post Title is Edited<br/>
+Click on Content to Edit Post<br/>
+Click on image to Edit Post<br/>
+Click on Settings Menu Dropdown<br/>
+Click on Publish Now in Settings Menu Dropdown<br/>
+Click on Content Tab<br/>
+Click on Content Tab<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@5e5792a0</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Url Entered]]>
+    </line>
+    <line>
+      <![CDATA[Email entered]]>
+    </line>
+    <line>
+      <![CDATA[Password entered]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on SignIn Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Post]]>
+    </line>
+    <line>
+      <![CDATA[Enter post title]]>
+    </line>
+    <line>
+      <![CDATA[Post Description given]]>
+    </line>
+    <line>
+      <![CDATA[ Image Added to post]]>
+    </line>
+    <line>
+      <![CDATA[Settings Menu Dropdown clicked]]>
+    </line>
+    <line>
+      <![CDATA[Click on Publish]]>
+    </line>
+    <line>
+      <![CDATA[Click on Publish Now]]>
+    </line>
+    <line>
+      <![CDATA[Click on Content Tab]]>
+    </line>
+    <line>
+      <![CDATA[Verify post]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Content Tab]]>
+    </line>
+    <line>
+      <![CDATA[Click on Edit Post]]>
+    </line>
+    <line>
+      <![CDATA[Post Title is Edited]]>
+    </line>
+    <line>
+      <![CDATA[Click on Content to Edit Post]]>
+    </line>
+    <line>
+      <![CDATA[Click on image to Edit Post]]>
+    </line>
+    <line>
+      <![CDATA[Click on Settings Menu Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Click on Publish Now in Settings Menu Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Click on Content Tab]]>
+    </line>
+    <line>
+      <![CDATA[Click on Content Tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on ContentTab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Content Tabel]]>
+    </line>
+    <line>
+      <![CDATA[Edit post]]>
+    </line>
+    <line>
+      <![CDATA[Click on Settings Menu Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Click on DeletePost in Settings Menu Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Click on Delete in DeletePostPopup]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74264" started-at="2017-08-22T08:16:01Z" finished-at="2017-08-22T08:17:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74264" started-at="2017-08-22T08:16:01Z" finished-at="2017-08-22T08:17:16Z">
+      <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases">
+        <test-method status="PASS" signature="DeletePostscriptExecution()[pri:2, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases@26653222]" name="DeletePostscriptExecution" duration-ms="14886" started-at="2017-08-22T13:47:01Z" finished-at="2017-08-22T13:47:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on ContentTab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Content Tabel]]>
+            </line>
+            <line>
+              <![CDATA[Edit post]]>
+            </line>
+            <line>
+              <![CDATA[Click on Settings Menu Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Click on DeletePost in Settings Menu Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Click on Delete in DeletePostPopup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeletePostscriptExecution -->
+      </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases -->
+      <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases@3ffc5af1]" name="setup" is-config="true" duration-ms="13097" started-at="2017-08-22T13:46:01Z" finished-at="2017-08-22T13:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Url Entered]]>
+            </line>
+            <line>
+              <![CDATA[Email entered]]>
+            </line>
+            <line>
+              <![CDATA[Password entered]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on SignIn Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateNewPostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases@3ffc5af1]" name="CreateNewPostscriptExecution" duration-ms="20413" started-at="2017-08-22T13:46:15Z" finished-at="2017-08-22T13:46:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Post]]>
+            </line>
+            <line>
+              <![CDATA[Enter post title]]>
+            </line>
+            <line>
+              <![CDATA[Post Description given]]>
+            </line>
+            <line>
+              <![CDATA[ Image Added to post]]>
+            </line>
+            <line>
+              <![CDATA[Settings Menu Dropdown clicked]]>
+            </line>
+            <line>
+              <![CDATA[Click on Publish]]>
+            </line>
+            <line>
+              <![CDATA[Click on Publish Now]]>
+            </line>
+            <line>
+              <![CDATA[Click on Content Tab]]>
+            </line>
+            <line>
+              <![CDATA[Verify post]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateNewPostscriptExecution -->
+      </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases -->
+      <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases">
+        <test-method status="PASS" signature="EditPostscriptExecution()[pri:1, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@5e5792a0]" name="EditPostscriptExecution" duration-ms="25854" started-at="2017-08-22T13:46:35Z" finished-at="2017-08-22T13:47:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Content Tab]]>
+            </line>
+            <line>
+              <![CDATA[Click on Edit Post]]>
+            </line>
+            <line>
+              <![CDATA[Post Title is Edited]]>
+            </line>
+            <line>
+              <![CDATA[Click on Content to Edit Post]]>
+            </line>
+            <line>
+              <![CDATA[Click on image to Edit Post]]>
+            </line>
+            <line>
+              <![CDATA[Click on Settings Menu Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Click on Publish Now in Settings Menu Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Click on Content Tab]]>
+            </line>
+            <line>
+              <![CDATA[Click on Content Tab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditPostscriptExecution -->
+      </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
