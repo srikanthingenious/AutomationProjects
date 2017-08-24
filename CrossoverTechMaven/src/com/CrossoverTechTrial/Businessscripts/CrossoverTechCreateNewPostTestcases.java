@@ -16,8 +16,7 @@ public class CrossoverTechCreateNewPostTestcases extends Configurator {
 			Thread.sleep(2000);
 			CrossoverTechTrialNewPostPage.clickNewPostOption(driver);
 			Reporter.log("Clicked on Post");
-			Reporter.log("Clicked on Post");
-			Reporter.log("Clicked on Post");
+			
 			
 			Thread.sleep(2000);
 			CrossoverTechTrialNewPostPage.enterPostTitle(driver);
