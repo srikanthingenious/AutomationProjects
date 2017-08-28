@@ -9,6 +9,16 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases -->
+      <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases">
+        <methods>
+          <include name="DeletePostscriptExecution"/>
+        </methods>
+      </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases -->
+      <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases">
+        <methods>
+          <include name="CreateNewPostscriptExecution"/>
+        </methods>
+      </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,166 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="3" failed="0" total="3" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Url Entered]]>
     </line>
-    <line>
-      <![CDATA[Email entered]]>
-    </line>
-    <line>
-      <![CDATA[Password entered]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on SignIn Button]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Post]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Post]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Post]]>
-    </line>
-    <line>
-      <![CDATA[Enter post title]]>
-    </line>
-    <line>
-      <![CDATA[Post Description given]]>
-    </line>
-    <line>
-      <![CDATA[ Image Added to post]]>
-    </line>
-    <line>
-      <![CDATA[Settings Menu Dropdown clicked]]>
-    </line>
-    <line>
-      <![CDATA[Click on Publish]]>
-    </line>
-    <line>
-      <![CDATA[Click on Publish Now]]>
-    </line>
-    <line>
-      <![CDATA[Click on Content Tab]]>
-    </line>
-    <line>
-      <![CDATA[Verify post]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Content Tab]]>
-    </line>
-    <line>
-      <![CDATA[Click on Edit Post]]>
-    </line>
-    <line>
-      <![CDATA[Post Title is Edited]]>
-    </line>
-    <line>
-      <![CDATA[Click on Content to Edit Post]]>
-    </line>
-    <line>
-      <![CDATA[Click on image to Edit Post]]>
-    </line>
-    <line>
-      <![CDATA[Click on Settings Menu Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Click on Publish Now in Settings Menu Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Click on Content Tab]]>
-    </line>
-    <line>
-      <![CDATA[Click on Content Tab]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on ContentTab]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Content Tabel]]>
-    </line>
-    <line>
-      <![CDATA[Edit post]]>
-    </line>
-    <line>
-      <![CDATA[Click on Settings Menu Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Click on DeletePost in Settings Menu Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Click on Delete in DeletePostPopup]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="77825" started-at="2017-08-24T14:13:27Z" finished-at="2017-08-24T14:14:45Z">
+  <suite name="Suite" duration-ms="16105" started-at="2017-08-28T09:46:37Z" finished-at="2017-08-28T09:46:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77825" started-at="2017-08-24T14:13:27Z" finished-at="2017-08-24T14:14:45Z">
+    <test name="Test" duration-ms="16105" started-at="2017-08-28T09:46:37Z" finished-at="2017-08-28T09:46:53Z">
       <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases">
-        <test-method status="PASS" signature="DeletePostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases@30c7da1e]" name="DeletePostscriptExecution" duration-ms="15222" started-at="2017-08-24T19:44:30Z" finished-at="2017-08-24T19:44:45Z">
+        <test-method status="SKIP" signature="DeletePostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases@30c7da1e]" name="DeletePostscriptExecution" duration-ms="1" started-at="2017-08-28T15:16:53Z" finished-at="2017-08-28T15:16:53Z">
           <reporter-output>
-            <line>
-              <![CDATA[Clicked on ContentTab]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Content Tabel]]>
-            </line>
-            <line>
-              <![CDATA[Edit post]]>
-            </line>
-            <line>
-              <![CDATA[Click on Settings Menu Dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Click on DeletePost in Settings Menu Dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Click on Delete in DeletePostPopup]]>
-            </line>
           </reporter-output>
         </test-method> <!-- DeletePostscriptExecution -->
       </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechDeleteTestcases -->
       <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases">
-        <test-method status="PASS" signature="CreateNewPostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases@5b464ce8]" name="CreateNewPostscriptExecution" duration-ms="21573" started-at="2017-08-24T19:43:41Z" finished-at="2017-08-24T19:44:03Z">
+        <test-method status="SKIP" signature="CreateNewPostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases@5b464ce8]" name="CreateNewPostscriptExecution" duration-ms="1" started-at="2017-08-28T15:16:53Z" finished-at="2017-08-28T15:16:53Z">
           <reporter-output>
-            <line>
-              <![CDATA[Clicked on Post]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Post]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Post]]>
-            </line>
-            <line>
-              <![CDATA[Enter post title]]>
-            </line>
-            <line>
-              <![CDATA[Post Description given]]>
-            </line>
-            <line>
-              <![CDATA[ Image Added to post]]>
-            </line>
-            <line>
-              <![CDATA[Settings Menu Dropdown clicked]]>
-            </line>
-            <line>
-              <![CDATA[Click on Publish]]>
-            </line>
-            <line>
-              <![CDATA[Click on Publish Now]]>
-            </line>
-            <line>
-              <![CDATA[Click on Content Tab]]>
-            </line>
-            <line>
-              <![CDATA[Verify post]]>
-            </line>
           </reporter-output>
         </test-method> <!-- CreateNewPostscriptExecution -->
       </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechCreateNewPostTestcases -->
       <class name="com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@48140564]" name="setup" is-config="true" duration-ms="14344" started-at="2017-08-24T19:43:27Z" finished-at="2017-08-24T19:43:41Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@48140564]" name="setup" is-config="true" duration-ms="0" started-at="2017-08-28T15:16:37Z" finished-at="2017-08-28T15:16:37Z">
           <params>
             <param index="0">
               <value>
@@ -168,50 +30,79 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'cit-dt-023', ip: '10.91.90.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ksr\AppData\Local\Temp\scoped_dir3356_13237}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9ef1c16cf0746e3f3d9a3e579215d66f
+*** Element info: {Using=xpath, value=.//*[@class ='email ember-view gh-input']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'cit-dt-023', ip: '10.91.90.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ksr\AppData\Local\Temp\scoped_dir3356_13237}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9ef1c16cf0746e3f3d9a3e579215d66f
+*** Element info: {Using=xpath, value=.//*[@class ='email ember-view gh-input']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.CrossoverTechTrial.PageObjects.CrossoverTechTrialLoginPage.EnterEmailid(CrossoverTechTrialLoginPage.java:19)
+	at com.CrossoverTechTrial.Reusables.Configurations.Configurator.setup(Configurator.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
               <![CDATA[Url Entered]]>
             </line>
-            <line>
-              <![CDATA[Email entered]]>
-            </line>
-            <line>
-              <![CDATA[Password entered]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on SignIn Button]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="EditPostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@48140564]" name="EditPostscriptExecution" duration-ms="26668" started-at="2017-08-24T19:44:03Z" finished-at="2017-08-24T19:44:30Z">
+        <test-method status="SKIP" signature="EditPostscriptExecution()[pri:0, instance:com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases@48140564]" name="EditPostscriptExecution" duration-ms="0" started-at="2017-08-28T15:16:53Z" finished-at="2017-08-28T15:16:53Z">
           <reporter-output>
-            <line>
-              <![CDATA[Clicked on Content Tab]]>
-            </line>
-            <line>
-              <![CDATA[Click on Edit Post]]>
-            </line>
-            <line>
-              <![CDATA[Post Title is Edited]]>
-            </line>
-            <line>
-              <![CDATA[Click on Content to Edit Post]]>
-            </line>
-            <line>
-              <![CDATA[Click on image to Edit Post]]>
-            </line>
-            <line>
-              <![CDATA[Click on Settings Menu Dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Click on Publish Now in Settings Menu Dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Click on Content Tab]]>
-            </line>
-            <line>
-              <![CDATA[Click on Content Tab]]>
-            </line>
           </reporter-output>
         </test-method> <!-- EditPostscriptExecution -->
       </class> <!-- com.CrossoverTechTrial.Businessscripts.CrossoverTechEditPostTestcases -->
